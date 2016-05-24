@@ -1,0 +1,133 @@
+/*all*/
+
+body {
+    background-color: black;
+}
+
+#wrapper {
+    background-color: #FFF;
+    border: 25px solid turquoise;
+    border-radius: 5px;
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+
+header {
+    background-color: lightgreen;
+    line-height: 7em;
+    margin: -35px 0px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Clicker Script', cursive;
+    font-size: 3em;
+    margin-left: .75em;
+}
+
+#main_nav {
+    background-color: lightyellow;
+    border-bottom: 3px solid orange;
+    border-top: 3px solid orange;
+    line-height: 25px;
+}
+
+#main_nav ul {
+    text-align: center;
+}
+
+#main_nav li {
+    display: inline;
+    padding: 2em;
+}
+
+#main_nav a {
+    color: orange;
+    font-family: 'Clicker Script', cursive;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#index_main p {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+/*main nav pages*/
+
+#link_header h1 {
+    color: black;
+    font-family: 'Clicker Script', cursive;
+    font-size: 3em;
+    margin-left: .75em;
+}
+
+h1 a, #content h2 a {
+    color: black !important;
+    text-decoration: none;
+}
+
+aside {
+    background-color: lightgrey;
+    font-weight: bold;
+    height: 417px;
+    position: fixed;
+    width: 10%;
+}
+
+#nav_side li {
+    display: inline-block;
+    line-height: 2em;
+}
+
+#nav_side a:link {
+    color: black;
+    font-size: 1.15em;
+    text-decoration: none;
+}
+
+#nav-side a:active {
+    color: purple;
+}
+
+#nav_side i {
+    color: orange;
+    font-size: 1em;
+}
+
+#content {
+    font-size: 1em;
+    height: 400px;
+    margin-left: 10em;
+    overflow: scroll;
+    width: 75%;
+}
+
+#content a:hover {
+    color: purple !important;
+}
+
+#content a:visited {
+    color: orange;
+}
+
+footer {
+    background-color: lightgreen;
+    height: 50px;
+}
+
+footer a {
+    color: black;
+    float: right;
+    font-family: 'Clicker Script', cursive;
+    font-size: 1.5em;
+    padding: .5em .5em 0em 0em;
+    text-decoration: none;
+}
